@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Patrick+Hand&family=Smokum&display=swap');
+
+:root {
+    --fonte: Patrick Hand;
+    --fonte-t: fredoka One;
+}
+
+h4 {
+    text-align: center;
+}
+
+
+body {
+
+    background-color: #D494EE;
+    width:1000px;
+    height:700px;
+    margin-top:0;
+    margin-left:auto;
+    margin-bottom:0;
+    margin-right:auto;
+}
+
+h1 {
+    color: #56226B;
+    text-align: center;
+    font-family: var(--fonte-t);
+}
+
+
+p {
+    font-family: var(--fonte);
+    font-size:medium;
+    text-align: left;
+}
+
+div.conteudo {
+    width:1000px;
+    height:500px;
+}
+
+div.img2 {
+    width:100px;
+    height:100px;
+    float:left;
+    margin-left:25%;
+    margin-right:25%; 
+    text-align: end;
+    margin-top: 10px;
+}
+
+div.img {
+    width:100px;
+    height:100px;
+    float:left;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: end;
+    margin-top: 10px;
+}   
+
+div.img3 {
+    width:100px;
+    height:100px;
+    float:right;
+    margin-left:auto;
+    margin-right:auto; 
+    text-align: end;
+    margin-top: 10px;
+}
+
+div.header {
+    width:1000px;
+    height:100px;
+    background-color:rgb(0, 0, 0);
+    }
+
+a {
+    color: #BF4CEB;
+}
+
+div.p {
+    text-align: center;
+}
